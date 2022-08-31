@@ -1,4 +1,5 @@
 import React from 'react';
+import './CustomLink.css'
 import {
     Link,
     useMatch,
@@ -12,7 +13,7 @@ function CustomLink({ children, to, ...props }) {
     return (
         <div>
             <Link
-                style={{ color: match ? "yellow" : "white", textDecoration: match ? "underline" : "none" }}
+                style={{ color: match ? "orange" : "white" }}
                 to={to}
                 {...props}
             >
