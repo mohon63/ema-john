@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import logo from '../../images/Logo.svg';
 import './Header.css'
 import CustomLink from './../CustomLink/CustomLink';
@@ -13,6 +12,7 @@ const Header = () => {
                 <CustomLink to="/orders">Orders</CustomLink>
                 <CustomLink to="/inventory">Inventory</CustomLink>
                 <CustomLink to="/about">About</CustomLink>
+                <CustomLink to="/login">LogIn</CustomLink>
             </div>
         </nav>
     );
