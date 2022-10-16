@@ -28,7 +28,7 @@ const Login = () => {
                         <div className='or-border'></div>
                     </div>
                 </div>
-                <button type="button" class="login-with-google-btn" >
+                <button type="button" className="login-with-google-btn" >
                     Sign in with Google
                 </button>
             </div>
