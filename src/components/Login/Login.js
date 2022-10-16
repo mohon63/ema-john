@@ -7,7 +7,7 @@ const Login = () => {
         <div className='form-container'>
             <div>
                 <h2 className='form-title'>LogIn</h2>
-                <form action="">
+                <form>
                     <div className="input-group">
                         <label htmlFor="email">Email</label>
                         <input type="email" name="email" id="" />
@@ -21,6 +21,16 @@ const Login = () => {
                 <p>
                     New to Ema-John? <Link className='form-link' to="/signup">Create an account</Link>
                 </p>
+                <div>
+                    <div className='login-border'>
+                        <div className='or-border'></div>
+                        <p>or</p>
+                        <div className='or-border'></div>
+                    </div>
+                </div>
+                <button type="button" class="login-with-google-btn" >
+                    Sign in with Google
+                </button>
             </div>
         </div>
     );
