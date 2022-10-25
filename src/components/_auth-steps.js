@@ -1,6 +1,7 @@
 /**
  * 1. Create a new firebase project in console.firebase.google.com
  * 1. Create a new firebase project in console.firebase.google.com
+ * 1. Create a new firebase project in console.firebase.google.com
  * 2. npm install firebase
  * 3. create firebase.init.js and import getAuth to export auth
  * 4. Firebase setting > Authentication > enable Email and Password auth
