@@ -8,7 +8,6 @@
  * 7. npm install --save react-firebase-hooks
  * 8. useCreateUserWithEmailAndPassword from react-firebase-hooks
  * 8. useCreateUserWithEmailAndPassword from react-firebase-hooks
- * 8. useCreateUserWithEmailAndPassword from react-firebase-hooks
  * 
  * 
 */
