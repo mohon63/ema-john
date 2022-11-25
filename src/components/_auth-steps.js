@@ -9,6 +9,8 @@
  * 8. useCreateUserWithEmailAndPassword from react-firebase-hooks
  * 9. if user is created redirect to the expected page 
  * 10. useSignInWithEmailAndPassword for sign in
+ * 11. create requireAuth component ==> check user exists also tract user location
+ * 12. In route wrap Protected component by using require auth component 
  * 
  * 
 */
@@ -16,9 +18,17 @@
 
 
 /**
- * hosting step 
+ * firebase hosting step 
  * 1. npm install -g firebase-tools
  * 2. firebase login
  * 3. firebase init
+ *  * Are you want to proceed. 'y'
+ *  * hosting: Configure files for firebase hosting and setup gitHub action deploy (click speech *)
+ *  * Use and existing project 
+ *  * ...project name
+ *  * public directory. (build)
+ *  * index.html (y)
+ *  * set up automatic build and deploys with gitHub, (n)
+ * 4. firebase deploy
  * 4. firebase deploy
 */
